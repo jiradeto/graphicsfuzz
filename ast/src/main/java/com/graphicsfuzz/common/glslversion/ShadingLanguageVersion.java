@@ -271,6 +271,12 @@ public interface ShadingLanguageVersion {
 
   boolean supportedRoundEven();
 
+  boolean supportedModf();
+
+  boolean supportedFrexp();
+
+  boolean supportedLdexp();
+
   boolean supportedSignInt();
 
   boolean supportedSwitchStmt();

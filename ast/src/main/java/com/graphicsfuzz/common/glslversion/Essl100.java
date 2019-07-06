@@ -288,4 +288,19 @@ final class Essl100 implements ShadingLanguageVersion {
   public boolean supportedHyperbolicAngleAndTrigonometricFunctions() {
     return false;
   }
+
+  @Override
+  public boolean supportedModf() {
+    return false;
+  }
+
+  @Override
+  public boolean supportedFrexp() {
+    return false;
+  }
+
+  @Override
+  public boolean supportedLdexp() {
+    return false;
+  }
 }

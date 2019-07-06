@@ -228,6 +228,21 @@ final class Glsl110 implements ShadingLanguageVersion {
   }
 
   @Override
+  public boolean supportedModf() {
+    return false;
+  }
+
+  @Override
+  public boolean supportedFrexp() {
+    return false;
+  }
+
+  @Override
+  public boolean supportedLdexp() {
+    return false;
+  }
+
+  @Override
   public boolean supportedSignInt() {
     return false;
   }
